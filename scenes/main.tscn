@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/level.gd" id="1_level"]
+[ext_resource type="TileSet" path="res://resources/tileset.tres" id="2_tiles"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3_player"]
+[ext_resource type="Script" path="res://scripts/dialog.gd" id="6_dialog"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Dialog" type="CanvasLayer" parent="."]
+script = ExtResource("6_dialog")
+
+[node name="Svet" type="Node2D" parent="."]
+script = ExtResource("1_level")
+
+[node name="Zem" type="TileMapLayer" parent="Svet"]
+tile_set = ExtResource("2_tiles")
+
+[node name="Stopy" type="TileMapLayer" parent="Svet"]
+tile_set = ExtResource("2_tiles")
+collision_enabled = false
+
+[node name="Objekty" type="TileMapLayer" parent="Svet"]
+tile_set = ExtResource("2_tiles")
+
+[node name="Postavy" type="Node2D" parent="Svet"]
+y_sort_enabled = true
+
+[node name="Player" parent="Svet/Postavy" instance=ExtResource("3_player")]
+position = Vector2(184, 248)
+
+[node name="Nad" type="TileMapLayer" parent="Svet"]
+tile_set = ExtResource("2_tiles")

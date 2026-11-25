@@ -1,0 +1,1378 @@
+{
+ "budovy": [
+  {
+   "id": "marekov_dom",
+   "nazov": "Marekov dom",
+   "x": 10,
+   "y": 10,
+   "w": 4,
+   "strecha": "red",
+   "vstup": true,
+   "interier": "dom"
+  },
+  {
+   "id": "dom_susedky",
+   "nazov": "Dom susedky",
+   "x": 15,
+   "y": 10,
+   "w": 4,
+   "strecha": "darkbrown",
+   "vstup": false,
+   "zatvorene": "Dom susedky. Susedia sú na Dňoch mesta, dvere sú zamknuté."
+  },
+  {
+   "id": "pekaren",
+   "nazov": "Pekáreň",
+   "x": 22,
+   "y": 10,
+   "w": 4,
+   "strecha": "brown",
+   "vstup": true,
+   "interier": "pekaren"
+  },
+  {
+   "id": "kvetinarstvo",
+   "nazov": "Kvetinárstvo",
+   "x": 27,
+   "y": 10,
+   "w": 4,
+   "strecha": "crimson",
+   "vstup": false,
+   "zatvorene": "Kvetinárstvo. Na dverách visí ceduľa: Dnes zatvorené – sme na námestí!"
+  },
+  {
+   "id": "skola",
+   "nazov": "Škola",
+   "x": 33,
+   "y": 10,
+   "w": 6,
+   "strecha": "blue",
+   "vstup": true,
+   "interier": "skola"
+  },
+  {
+   "id": "kniznica",
+   "nazov": "Knižnica",
+   "x": 46,
+   "y": 10,
+   "w": 4,
+   "strecha": "orange",
+   "vstup": true,
+   "interier": "kniznica"
+  },
+  {
+   "id": "muzeum",
+   "nazov": "Múzeum",
+   "x": 51,
+   "y": 10,
+   "w": 4,
+   "strecha": "purple",
+   "vstup": false,
+   "zatvorene": "Múzeum. Otvorené až po Dňoch mesta."
+  },
+  {
+   "id": "potraviny",
+   "nazov": "Potraviny",
+   "x": 10,
+   "y": 20,
+   "w": 4,
+   "strecha": "brown",
+   "vstup": true,
+   "interier": "potraviny"
+  },
+  {
+   "id": "dom_dedka",
+   "nazov": "Dom Dedka Jozefa",
+   "x": 15,
+   "y": 20,
+   "w": 4,
+   "strecha": "orange",
+   "vstup": false,
+   "zatvorene": "Dom Dedka Jozefa. Dedko cez deň sedí na lavičke na námestí."
+  },
+  {
+   "id": "posta",
+   "nazov": "Pošta",
+   "x": 46,
+   "y": 20,
+   "w": 4,
+   "strecha": "red",
+   "vstup": true,
+   "interier": "posta"
+  },
+  {
+   "id": "lekaren",
+   "nazov": "Lekáreň",
+   "x": 51,
+   "y": 20,
+   "w": 4,
+   "strecha": "teal",
+   "vstup": false,
+   "zatvorene": "Lekáreň. Pohotovosť len v noci."
+  },
+  {
+   "id": "dielna",
+   "nazov": "Dielňa",
+   "x": 10,
+   "y": 30,
+   "w": 4,
+   "strecha": "grey",
+   "vstup": true,
+   "interier": "dielna"
+  },
+  {
+   "id": "radnica",
+   "nazov": "Radnica",
+   "x": 21,
+   "y": 30,
+   "w": 6,
+   "strecha": "slate",
+   "vstup": true,
+   "interier": "radnica"
+  },
+  {
+   "id": "kaviaren",
+   "nazov": "Kaviareň",
+   "x": 34,
+   "y": 30,
+   "w": 4,
+   "strecha": "brown",
+   "vstup": true,
+   "interier": "kaviaren"
+  },
+  {
+   "id": "zahradnictvo",
+   "nazov": "Záhradníctvo",
+   "x": 46,
+   "y": 30,
+   "w": 4,
+   "strecha": "green",
+   "vstup": true,
+   "interier": "zahradnictvo"
+  },
+  {
+   "id": "dom_anny",
+   "nazov": "Dom Babky Anny",
+   "x": 51,
+   "y": 30,
+   "w": 4,
+   "strecha": "crimson",
+   "vstup": false,
+   "zatvorene": "Dom Babky Anny. Babka je cez deň v záhradníctve."
+  },
+  {
+   "id": "budka",
+   "nazov": "Rybárska búdka",
+   "x": 22,
+   "y": 39,
+   "w": 4,
+   "strecha": "slate",
+   "vstup": true,
+   "interier": "budka"
+  },
+  {
+   "id": "clnaren",
+   "nazov": "Člnáreň",
+   "x": 36,
+   "y": 39,
+   "w": 5,
+   "strecha": "darkbrown",
+   "vstup": false,
+   "zatvorene": "Člnáreň. Dvere sú zamknuté."
+  },
+  {
+   "id": "chatka",
+   "nazov": "Záhradná chatka",
+   "x": 48,
+   "y": 40,
+   "w": 4,
+   "strecha": "darkbrown",
+   "vstup": false,
+   "zatvorene": "Stará záhradná chatka. Okná sú zaprášené, vnútri je tma."
+  }
+ ],
+ "sprity": {
+  "npc_mama": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    70,
+    150,
+    150
+   ],
+   "hair": [
+    110,
+    70,
+    40
+   ],
+   "pants": [
+    70,
+    70,
+    90
+   ]
+  },
+  "npc_pekar": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    236,
+    236,
+    230
+   ],
+   "hair": [
+    96,
+    64,
+    40
+   ],
+   "pants": [
+    96,
+    96,
+    110
+   ]
+  },
+  "npc_ucitelka": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    210,
+    130,
+    60
+   ],
+   "hair": [
+    220,
+    190,
+    110
+   ],
+   "pants": [
+    80,
+    60,
+    100
+   ]
+  },
+  "npc_knihovnicka": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    80,
+    150,
+    110
+   ],
+   "hair": [
+    170,
+    70,
+    40
+   ]
+  },
+  "npc_postar": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    60,
+    100,
+    170
+   ],
+   "hair": [
+    70,
+    50,
+    40
+   ],
+   "pants": [
+    40,
+    50,
+    80
+   ]
+  },
+  "npc_casnik": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    64,
+    64,
+    74
+   ],
+   "hair": [
+    220,
+    190,
+    110
+   ],
+   "pants": [
+    40,
+    40,
+    50
+   ]
+  },
+  "npc_starostka": {
+   "zaklad": "npc_babka",
+   "shirt": [
+    150,
+    40,
+    90
+   ],
+   "hair": [
+    140,
+    140,
+    150
+   ]
+  },
+  "npc_majster": {
+   "zaklad": "npc_dedko",
+   "shirt": [
+    200,
+    120,
+    50
+   ],
+   "hair": [
+    60,
+    50,
+    40
+   ],
+   "pants": [
+    70,
+    80,
+    110
+   ]
+  },
+  "npc_vodic": {
+   "zaklad": "npc_predavacka",
+   "shirt": [
+    90,
+    110,
+    80
+   ],
+   "hair": [
+    110,
+    70,
+    40
+   ],
+   "pants": [
+    50,
+    60,
+    90
+   ]
+  },
+  "npc_ondrej": {
+   "zaklad": "npc_dedko",
+   "shirt": [
+    50,
+    70,
+    110
+   ],
+   "hair": [
+    236,
+    236,
+    236
+   ],
+   "pants": [
+    110,
+    90,
+    60
+   ]
+  }
+ },
+ "postavy": {
+  "mama": {
+   "meno": "Mama",
+   "sprite": "npc_mama",
+   "budova": "marekov_dom",
+   "smer": "down"
+  },
+  "eva": {
+   "meno": "Predavačka Eva",
+   "sprite": "npc_predavacka",
+   "budova": "potraviny",
+   "smer": "down"
+  },
+  "rudo": {
+   "meno": "Pekár Rudo",
+   "sprite": "npc_pekar",
+   "budova": "pekaren",
+   "smer": "down"
+  },
+  "kovacova": {
+   "meno": "Učiteľka Kováčová",
+   "sprite": "npc_ucitelka",
+   "budova": "skola",
+   "smer": "down"
+  },
+  "zuzana": {
+   "meno": "Knihovníčka Zuzana",
+   "sprite": "npc_knihovnicka",
+   "budova": "kniznica",
+   "smer": "down"
+  },
+  "fero": {
+   "meno": "Poštár Fero",
+   "sprite": "npc_postar",
+   "budova": "posta",
+   "smer": "down"
+  },
+  "anna": {
+   "meno": "Babka Anna",
+   "sprite": "npc_babka",
+   "budova": "zahradnictvo",
+   "smer": "down"
+  },
+  "tomas": {
+   "meno": "Čašník Tomáš",
+   "sprite": "npc_casnik",
+   "budova": "kaviaren",
+   "smer": "down"
+  },
+  "hudecova": {
+   "meno": "Starostka Hudecová",
+   "sprite": "npc_starostka",
+   "budova": "radnica",
+   "smer": "down"
+  },
+  "pavol": {
+   "meno": "Majster Pavol",
+   "sprite": "npc_majster",
+   "budova": "dielna",
+   "smer": "down"
+  },
+  "karol": {
+   "meno": "Vodič Karol",
+   "sprite": "npc_vodic",
+   "vonku": [
+    17,
+    42
+   ],
+   "smer": "left"
+  },
+  "ondrej": {
+   "meno": "Starý Ondrej",
+   "sprite": "npc_ondrej",
+   "budova": "budka",
+   "smer": "down"
+  },
+  "jozef": {
+   "meno": "Dedko Jozef",
+   "sprite": "npc_dedko",
+   "vonku": [
+    24,
+    24
+   ],
+   "smer": "down"
+  }
+ },
+ "hlavne": [
+  {
+   "id": 1,
+   "postava": "eva",
+   "ciel": "Potraviny (vľavo, druhý rad)",
+   "ciastkovy_ciel": "Kladné a záporné čísla v kontexte reálneho života",
+   "uvod": "Marek? Gabriela hľadáš? V noci som počula za obchodom štekot a ráno mi chýbala klobása. Najprv mi ale pomôž označiť teploty v regáloch, nech sa nič nepokazí.",
+   "kroky": [
+    {
+     "typ": "volba",
+     "otazka": "Mám štítky −18 °C, +4 °C a +12 °C. Ktorý patrí do MRAZNIČKY?",
+     "moznosti": [
+      "−18 °C",
+      "+4 °C",
+      "+12 °C"
+     ],
+     "odpoved": 0,
+     "napoveda": "V mrazničke musí byť pod nulou, aby voda zamrzla."
+    },
+    {
+     "typ": "volba",
+     "otazka": "Ktorý štítok patrí do CHLADNIČKY?",
+     "moznosti": [
+      "−18 °C",
+      "+4 °C",
+      "+12 °C"
+     ],
+     "odpoved": 1,
+     "napoveda": "Chladnička chladí, ale nemrazí. Je v nej trochu nad nulou."
+    },
+    {
+     "typ": "volba",
+     "otazka": "A ktorý do VÝKLADU?",
+     "moznosti": [
+      "−18 °C",
+      "+4 °C",
+      "+12 °C"
+     ],
+     "odpoved": 2,
+     "napoveda": "Vo výklade je skoro izbová teplota, najteplejšie zo všetkých troch."
+    },
+    {
+     "typ": "volba",
+     "otazka": "Čo znamená −18 °C?",
+     "moznosti": [
+      "18 stupňov pod bodom mrazu (pod nulou)",
+      "18 stupňov nad nulou",
+      "teplomer je pokazený"
+     ],
+     "odpoved": 0,
+     "napoveda": "Znamienko mínus pri teplote znamená pod nulou."
+    }
+   ],
+   "stopa": "Ráno som videla hnedého psa s červeným obojkom. Bežal na sever, k pekárni.",
+   "zapisnik": {
+    "kde": "Potraviny",
+    "kto": "Eva",
+    "co": "Pes bežal na sever k pekárni."
+   }
+  },
+  {
+   "id": 2,
+   "postava": "rudo",
+   "ciel": "Pekáreň (hore, druhý dom zľava)",
+   "ciastkovy_ciel": "Zobrazenie čísel na číselnej osi",
+   "uvod": "Gabriel? Sedel o štvrtej ráno pri peci, tak som mu dal rožok. Pomôž mi s teplomerom v chladiacej komore a poviem ti viac.",
+   "kroky": [
+    {
+     "typ": "os",
+     "otazka": "Na osi teplomera nastav bod A = 3.",
+     "odpoved": 3,
+     "min": -5,
+     "max": 5,
+     "krok": 0.5,
+     "napoveda": "Kladné čísla sú napravo od nuly."
+    },
+    {
+     "typ": "os",
+     "otazka": "Nastav bod B = −4.",
+     "odpoved": -4,
+     "min": -5,
+     "max": 5,
+     "krok": 0.5,
+     "napoveda": "Záporné čísla sú naľavo od nuly."
+    },
+    {
+     "typ": "os",
+     "otazka": "Nastav bod C = −1,5.",
+     "odpoved": -1.5,
+     "min": -5,
+     "max": 5,
+     "krok": 0.5,
+     "napoveda": "−1,5 leží presne v strede medzi −1 a −2."
+    },
+    {
+     "typ": "os",
+     "otazka": "Nastav bod D = 0.",
+     "odpoved": 0,
+     "min": -5,
+     "max": 5,
+     "krok": 0.5,
+     "napoveda": "Nula je stred osi."
+    }
+   ],
+   "stopa": "Keď odchádzal, mal labky biele od múky. Biele odtlačky viedli ku škole.",
+   "zapisnik": {
+    "kde": "Pekáreň",
+    "kto": "Rudo",
+    "co": "Biele odtlačky od múky vedú ku škole."
+   }
+  },
+  {
+   "id": 3,
+   "postava": "kovacova",
+   "ciel": "Škola (hore v strede)",
+   "ciastkovy_ciel": "Opačné čísla",
+   "uvod": "Pod lavičkou v areáli som našla obhryzenú loptičku. Je Gabrielova? Tak tu bol! Najprv si ale zopakujme zrkadlo na číselnej osi: nula je zrkadlo.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Aké je opačné číslo k 8?",
+     "odpoved": "-8",
+     "napoveda": "Opačné číslo je rovnako ďaleko od nuly, ale na druhej strane."
+    },
+    {
+     "typ": "text",
+     "otazka": "Aké je opačné číslo k −12?",
+     "odpoved": "12",
+     "napoveda": "Opačné číslo k zápornému číslu je kladné."
+    },
+    {
+     "typ": "text",
+     "otazka": "Aké je opačné číslo k 0?",
+     "odpoved": "0",
+     "napoveda": "Nula je zrkadlo samo sebe."
+    },
+    {
+     "typ": "text",
+     "otazka": "Koľko je −(−5)?",
+     "odpoved": "5",
+     "napoveda": "Mínus pred zátvorkou urobí opačné číslo. Opačné k −5 je…"
+    }
+   ],
+   "stopa": "Loptičku nechal tu a pokračoval smerom ku knižnici.",
+   "zapisnik": {
+    "kde": "Škola",
+    "kto": "Kováčová",
+    "co": "Loptička pod lavičkou, pes šiel ku knižnici."
+   }
+  },
+  {
+   "id": 4,
+   "postava": "zuzana",
+   "ciel": "Knižnica (vpravo hore)",
+   "ciastkovy_ciel": "Absolútna hodnota",
+   "uvod": "Videla som ho cez okno! Najprv mi ale pomôž zaradiť knihy do regálov. Regály sú očíslované absolútnymi hodnotami.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "|−9| = ?",
+     "odpoved": "9",
+     "napoveda": "Absolútna hodnota je vzdialenosť od nuly. Je vždy nezáporná."
+    },
+    {
+     "typ": "text",
+     "otazka": "|14| = ?",
+     "odpoved": "14",
+     "napoveda": "Kladné číslo ostáva rovnaké."
+    },
+    {
+     "typ": "text",
+     "otazka": "|0| = ?",
+     "odpoved": "0",
+     "napoveda": "Nula je od nuly vzdialená… nula."
+    },
+    {
+     "typ": "text",
+     "otazka": "|−3,2| = ?",
+     "odpoved": "3.2",
+     "napoveda": "Mínus zahoď, desatinné číslo ostáva."
+    },
+    {
+     "typ": "text",
+     "otazka": "Ktoré čísla vyhovujú |x| = 6? Napíš obe, oddeľ bodkočiarkou.",
+     "odpoved": "6;-6",
+     "napoveda": "Ktoré dve čísla sú od nuly vzdialené 6? Jedno je kladné, druhé záporné.",
+     "poradie": false
+    }
+   ],
+   "stopa": "Gabriel prešiel okolo okna za dodávkou. Dodávka stála pri pošte.",
+   "zapisnik": {
+    "kde": "Knižnica",
+    "kto": "Zuzana",
+    "co": "Pes bežal za dodávkou k pošte."
+   }
+  },
+  {
+   "id": 5,
+   "postava": "fero",
+   "ciel": "Pošta (vpravo, druhý rad)",
+   "ciastkovy_ciel": "Zápis nerovností, porovnávanie",
+   "uvod": "Áno, toho psa poznám! Najprv mi pomôž roztriediť schránky. Doplň správne znamienko.",
+   "kroky": [
+    {
+     "typ": "volba",
+     "otazka": "−8  ___  −3",
+     "moznosti": [
+      "<",
+      ">",
+      "="
+     ],
+     "odpoved": 0,
+     "napoveda": "Na osi je −8 viac vľavo ako −3, preto je menšie."
+    },
+    {
+     "typ": "volba",
+     "otazka": "−12  ___  2",
+     "moznosti": [
+      "<",
+      ">",
+      "="
+     ],
+     "odpoved": 0,
+     "napoveda": "Každé záporné číslo je menšie ako kladné."
+    },
+    {
+     "typ": "volba",
+     "otazka": "|−5|  ___  −5",
+     "moznosti": [
+      "<",
+      ">",
+      "="
+     ],
+     "odpoved": 1,
+     "napoveda": "|−5| je 5. Porovnaj 5 a −5."
+    }
+   ],
+   "stopa": "Mal som dodávku otvorenú. Gabriel vyskočil dnu, zjedol kus rožka zo škatule a utekal k záhradám. Skús Záhradníctvo.",
+   "zapisnik": {
+    "kde": "Pošta",
+    "kto": "Fero",
+    "co": "Zjedol rožok v dodávke, utekal k záhradníctvu."
+   }
+  },
+  {
+   "id": 6,
+   "postava": "anna",
+   "ciel": "Záhradníctvo (vpravo, tretí rad)",
+   "ciastkovy_ciel": "Usporiadanie celých čísel",
+   "uvod": "Pozri na tú hadicu, celá prehryznutá! A záhon rozkopaný. Pomôž mi zoradiť teploty mrazu pre sadenice, potom ti poviem, kam bežal.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Zoraď vzostupne (od najmenšej): 4; −7; 0; −2,5; 1,5; −10\nOddeľ bodkočiarkou.",
+     "odpoved": "-10;-7;-2.5;0;1.5;4",
+     "napoveda": "Čím väčšie číslo za mínusom, tým je menšie. Začni s −10."
+    }
+   ],
+   "stopa": "Preskočil plot a odbehol smerom k námestiu. A mimochodom… tá stará chatka za plotom pri jazere je od jari prázdna.",
+   "zapisnik": {
+    "kde": "Záhradníctvo",
+    "kto": "Anna",
+    "co": "Bežal k námestiu. Stará chatka pri jazere je prázdna!"
+   }
+  },
+  {
+   "id": 7,
+   "postava": "tomas",
+   "ciel": "Kaviareň (tretí rad, v strede)",
+   "ciastkovy_ciel": "Sčítanie a odčítanie celých čísel",
+   "uvod": "Gabriel? Bol pri fontáne. Ale pokladňa sa mi zbláznila, počíta so zápornými číslami. Pomôžeš?",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "−14 + (−6) = ?",
+     "odpoved": "-20",
+     "napoveda": "Dva dlhy sa sčítajú: 14 + 6 a znamienko mínus."
+    },
+    {
+     "typ": "text",
+     "otazka": "−8 − (−15) = ?",
+     "odpoved": "7",
+     "napoveda": "Odčítať záporné číslo je to isté ako pripočítať kladné: −8 + 15."
+    },
+    {
+     "typ": "text",
+     "otazka": "12 − 27 = ?",
+     "odpoved": "-15",
+     "napoveda": "Väčšie číslo odčítavaš od menšieho, výsledok bude záporný."
+    }
+   ],
+   "stopa": "Pri fontáne mu jedno dieťa dalo koláč. Napil sa z fontány a odišiel k radnici. Vyzeral unavený.",
+   "zapisnik": {
+    "kde": "Kaviareň",
+    "kto": "Tomáš",
+    "co": "Koláč pri fontáne, pes šiel k radnici, bol unavený."
+   }
+  },
+  {
+   "id": 8,
+   "postava": "hudecova",
+   "ciel": "Radnica (tretí rad, vľavo od kaviarne)",
+   "ciastkovy_ciel": "Násobenie a delenie celých čísel",
+   "uvod": "Evidujem hlásenia z Dní mesta. Jedno je aj o psovi. Pomôž mi s tabuľkou hladín jazera a ukážem ti ho.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Hladina jazera klesá 6 dní po 7 cm. Aká je celková zmena (v cm)?",
+     "odpoved": "-42",
+     "napoveda": "Klesanie je záporné: 6 · (−7)."
+    },
+    {
+     "typ": "text",
+     "otazka": "(−8) · (−9) = ?",
+     "odpoved": "72",
+     "napoveda": "Mínus krát mínus je plus."
+    },
+    {
+     "typ": "text",
+     "otazka": "(−48) : (−6) = ?",
+     "odpoved": "8",
+     "napoveda": "Mínus delené mínusom je plus."
+    },
+    {
+     "typ": "text",
+     "otazka": "72 : (−8) = ?",
+     "odpoved": "-9",
+     "napoveda": "Plus delené mínusom je mínus."
+    }
+   ],
+   "stopa": "V hláseniach je: Hnedý pes pri dielni, ráno o siedmej.",
+   "zapisnik": {
+    "kde": "Radnica",
+    "kto": "Hudecová",
+    "co": "Hlásenie: pes pri dielni."
+   }
+  },
+  {
+   "id": 9,
+   "postava": "pavol",
+   "ciel": "Dielňa (vľavo, tretí rad)",
+   "ciastkovy_ciel": "Kombinované výrazy",
+   "uvod": "V skrinke Stratené veci mám známku s písmenom G. Skrinka sa otvára číselným kódom a ja som ho zabudol. Kód je hodnota výrazu:",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "−5 · (−4) − 3 · (−2 + 8) : (−3) = ?",
+     "odpoved": "26",
+     "napoveda": "Najprv zátvorka, potom násobenie a delenie zľava doprava. Vyjde 20 − (−6)."
+    }
+   ],
+   "stopa": "Je to Gabrielova známka! Na rube je vyryté slovo JAZERO. Pes vraj pokračoval k zastávke.",
+   "zapisnik": {
+    "kde": "Dielňa",
+    "kto": "Pavol",
+    "co": "Známka G, na rube JAZERO. Pes šiel k zastávke."
+   }
+  },
+  {
+   "id": 10,
+   "postava": "karol",
+   "ciel": "Zastávka v parku (vľavo dole)",
+   "ciastkovy_ciel": "Slovná úloha: teplota",
+   "uvod": "Ráno som tu videl psa. Pomôž mi zapísať teploty do denníka, nech to mám v poriadku.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Ráno bolo −3 °C, do obeda teplota stúpla o 8 °C. Koľko bolo na obed?",
+     "odpoved": "5",
+     "napoveda": "−3 + 8 = ?"
+    },
+    {
+     "typ": "text",
+     "otazka": "Do polnoci teplota klesla o 11 °C. Aká bola teplota o polnoci?",
+     "odpoved": "-6",
+     "napoveda": "Od obednej teploty odčítaj 11."
+    }
+   ],
+   "stopa": "Gabriel ráno čakal na lavičke na konci linky. Potom zacítil ryby a utekal k prístavu.",
+   "zapisnik": {
+    "kde": "Zastávka",
+    "kto": "Karol",
+    "co": "Čakal na lavičke, zacítil ryby, bežal k prístavu."
+   }
+  },
+  {
+   "id": 11,
+   "postava": "ondrej",
+   "ciel": "Rybárska búdka pri jazere",
+   "ciastkovy_ciel": "Slovná úloha: hĺbka a bilancia",
+   "uvod": "Hnedý pes? Ten mi ráno ukradol rybu, ha! Pomôž mi s hĺbkovou sondou a poviem ti, kam šiel.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Sonda je v hĺbke −14 m. Vystúpi o 6 m a potom klesne o 3 m. V akej hĺbke je?",
+     "odpoved": "-11",
+     "napoveda": "Vystúpiť = pripočítať, klesnúť = odčítať: −14 + 6 − 3."
+    }
+   ],
+   "stopa": "Dal som mu rybu. Potom preplával zátoku ku člnárni a bežal po brehu na východ.",
+   "zapisnik": {
+    "kde": "Prístav",
+    "kto": "Ondrej",
+    "co": "Preplával ku člnárni, bežal po brehu na východ."
+   }
+  }
+ ],
+ "vedlajsie": [
+  {
+   "id": "jozef",
+   "postava": "jozef",
+   "odomkne": 0,
+   "nazov": "Denník teplôt",
+   "uvod": "Mladý, píšem si denník teplôt. Pomôžeš starému človeku? Päť dní: −2, −5, +1, −4, −3.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Aká bola najnižšia teplota?",
+     "odpoved": "-5",
+     "napoveda": "Najnižšia je tá s najväčším číslom za mínusom."
+    },
+    {
+     "typ": "text",
+     "otazka": "O koľko stupňov bola najvyššia teplota vyššia ako najnižšia?",
+     "odpoved": "6",
+     "napoveda": "Najvyššia je +1. Rozdiel: 1 − (−5)."
+    }
+   ],
+   "odmena": "Dedko ti dal svoju starú píšťalku. Vraj na ňu počúvne každý pes.",
+   "flag": "pistalka"
+  },
+  {
+   "id": "anna",
+   "postava": "anna",
+   "odomkne": 6,
+   "nazov": "Záhon so súradnicami",
+   "rozsirenie": true,
+   "uvod": "Ešte jedna vec, Marek. Chcem zasadiť kvety do záhonu. Stred záhonu je bod (0, 0). Tulipán pôjde na bod (−3, 2), ruža na bod (4, −1).",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Koľko políčok vodorovne je medzi tulipánom a ružou?",
+     "odpoved": "7",
+     "napoveda": "Rozdiel x-ových súradníc: 4 − (−3)."
+    },
+    {
+     "typ": "text",
+     "otazka": "A koľko políčok zvislo?",
+     "odpoved": "3",
+     "napoveda": "Rozdiel y-ových súradníc: 2 − (−1)."
+    }
+   ],
+   "odmena": "Babka Anna ti dala nápovedu navyše: pri ďalších úlohách uvidíš radu hneď.",
+   "flag": "napoveda"
+  },
+  {
+   "id": "fero",
+   "postava": "fero",
+   "odomkne": 5,
+   "nazov": "Výťah",
+   "uvod": "Mám ešte jednu zásielku. Výťah v dome ide z 3. poschodia do pivnice na poschodie −2.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "O koľko poschodí výťah prejde?",
+     "odpoved": "5",
+     "napoveda": "3 − (−2) = ?"
+    }
+   ],
+   "odmena": "Fero ti dal nápovedu navyše: pri ďalších úlohách uvidíš radu hneď.",
+   "flag": "napoveda"
+  },
+  {
+   "id": "tomas",
+   "postava": "tomas",
+   "odomkne": 7,
+   "nazov": "Zostatok na karte",
+   "uvod": "Zákazník má na karte −45 €. Dobije si 60 €.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Aký je jeho nový zostatok (v €)?",
+     "odpoved": "15",
+     "napoveda": "−45 + 60 = ?"
+    }
+   ],
+   "odmena": "Tomáš ti zabalil koláč. Vraj ho daj Gabrielovi, keď ho nájdeš.",
+   "flag": "kolac"
+  },
+  {
+   "id": "zuzana",
+   "postava": "zuzana",
+   "odomkne": 4,
+   "nazov": "Magický štvorec",
+   "uvod": "Mám tu magický štvorec 3 × 3 s číslami od −4 po 4. Každý riadok, stĺpec aj uhlopriečka majú súčet 0.\n −1 |  4 |  ?\n −2 |  0 |  2\n  ? | −4 |  ?",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Aké číslo patrí do pravého horného rohu?",
+     "odpoved": "-3",
+     "napoveda": "Prvý riadok: −1 + 4 + ? = 0."
+    },
+    {
+     "typ": "text",
+     "otazka": "Aké číslo patrí do ľavého dolného rohu?",
+     "odpoved": "3",
+     "napoveda": "Prvý stĺpec: −1 + (−2) + ? = 0."
+    },
+    {
+     "typ": "text",
+     "otazka": "Aké číslo patrí do pravého dolného rohu?",
+     "odpoved": "1",
+     "napoveda": "Uhlopriečka: −1 + 0 + ? = 0."
+    }
+   ],
+   "odmena": "Zuzana ti požičala Knihu stôp. V zápisníku teraz pri každej indícii uvidíš, čo si sa naučil.",
+   "flag": "kniha_stop"
+  },
+  {
+   "id": "kovacova",
+   "postava": "kovacova",
+   "odomkne": 3,
+   "nazov": "Menšie číslo",
+   "rozsirenie": true,
+   "uvod": "Malá súťaž, Marek. Zlomky a desatinné čísla.",
+   "kroky": [
+    {
+     "typ": "volba",
+     "otazka": "Ktoré číslo je menšie?",
+     "moznosti": [
+      "−1/2",
+      "−0,75"
+     ],
+     "odpoved": 1,
+     "napoveda": "−1/2 = −0,50. Ktoré je ďalej vľavo od nuly?"
+    }
+   ],
+   "odmena": "Dostal si školskú čiapku so psíkom. Pristane ti!",
+   "flag": "ciapka"
+  },
+  {
+   "id": "pavol",
+   "postava": "pavol",
+   "odomkne": 9,
+   "nazov": "Zámok bicykla",
+   "rozsirenie": true,
+   "uvod": "Mám tu starý bicykel, ale zámok má kód. Kód je hodnota výrazu −2 · [3 − (−4)] + 10 · (−4).",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Aký je kód?",
+     "odpoved": "-54",
+     "napoveda": "Hranatá zátvorka: 3 − (−4) = 7. Potom −2 · 7 + 10 · (−4)."
+    }
+   ],
+   "odmena": "Majster Pavol ti dal bicykel! Po meste sa teraz pohybuješ rýchlejšie.",
+   "flag": "bicykel"
+  },
+  {
+   "id": "ondrej",
+   "postava": "ondrej",
+   "odomkne": 11,
+   "nazov": "Hĺbky jazera",
+   "uvod": "Ešte niečo pre rybára. Zmeral som hĺbky: −3 m, −8 m, −12 m, −5 m.",
+   "kroky": [
+    {
+     "typ": "text",
+     "otazka": "Zoraď ich od najplytšej po najhlbšiu. Oddeľ bodkočiarkou.",
+     "odpoved": "-3;-5;-8;-12",
+     "napoveda": "Najplytšia je najbližšie k nule."
+    }
+   ],
+   "odmena": "Ondrej ťa naučil, kde v jazere berú ryby. Raz spolu pôjdete na ryby!",
+   "flag": "rybar"
+  }
+ ],
+ "interiery": {
+  "dom": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WWOWWWIWWWWOWWWLWW^",
+    "^b....f.o.....aaa.p^",
+    "^b.................^",
+    "^........1.........^",
+    "^....rrrr....tt...p^",
+    "^....rrrr....tt....^",
+    "^............h.....^",
+    "^p.................^",
+    "^..k............x..^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "potraviny": {
+   "podlaha": "tile",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWWWWWIWWWWWOWW^",
+    "^ffzz.sssss.sssss..^",
+    "^..................^",
+    "^..s..s..s....1....^",
+    "^..s..s..s..ccccc..^",
+    "^..s..s..s.........^",
+    "^..................^",
+    "^x.............x.p.^",
+    "^xx..............p.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "pekaren": {
+   "podlaha": "tile",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWWWLWWWWWWWOWW^",
+    "^oo.eee.eee...ff..u^",
+    "^.................u^",
+    "^.......1.......4..^",
+    "^..cccccccc........^",
+    "^..................^",
+    "^...t.....t.....t..^",
+    "^...h.....h.....h.3^",
+    "^p.................^",
+    "^........@........p^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "skola": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWBBBBBBWWWLWOW^",
+    "^.........1.....kk.^",
+    "^.......dd.........^",
+    "^..................^",
+    "^..d..d..d..d..d...^",
+    "^..h..h..h..h..h...^",
+    "^..d..d..d..d..d...^",
+    "^..h..h..h..h..h..3^",
+    "^p...............p.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "kniznica": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWWWWIWWWWWWWOW^",
+    "^kkkk.kkkk.kkkk.kkk^",
+    "^..................^",
+    "^..kk..kk..1...tt..^",
+    "^..kk..kk......hh..^",
+    "^..................^",
+    "^..kk..kk..rrrr....^",
+    "^..kk..kk..rrrr..3.^",
+    "^p...............p.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "posta": {
+   "podlaha": "tile",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWWWWLWWWWWWOWW^",
+    "^qqqq.qqqq....xxx..^",
+    "^..........1.......^",
+    "^....cccccccccc....^",
+    "^..................^",
+    "^..................^",
+    "^.t..........x..x..^",
+    "^.h............x...^",
+    "^p...............3.^",
+    "^........@........p^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "dielna": {
+   "podlaha": "stone",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WRWWWRWWWOWWWRWWWW^",
+    "^www.www.....llll..^",
+    "^..........1.......^",
+    "^..................^",
+    "^.uu.....ww.....x..^",
+    "^.uu..........4.xx.^",
+    "^..................^",
+    "^x..........ww.....^",
+    "^xx..............3.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "radnica": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWIWWWLWWWIWWOW^",
+    "^kk.............kk.^",
+    "^.......1..........^",
+    "^......ddd.........^",
+    "^...rrrrrrrrrrrr...^",
+    "^...rrrrrrrrrrrr...^",
+    "^...hh.hh.hh.hh....^",
+    "^...hh.hh.hh.hh...3^",
+    "^p...............p.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "kaviaren": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWIWWWLWWWIWWOW^",
+    "^..fe.cccccc.....p.^",
+    "^.........1........^",
+    "^..................^",
+    "^..t...t...t...t...^",
+    "^..h...h...h...h...^",
+    "^..................^",
+    "^..t...t.......aa..^",
+    "^p.h...h.........3.^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "zahradnictvo": {
+   "podlaha": "stone",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WOWWWWWOWWWWWOWWWW^",
+    "^pppp.gggg.gggg.ppp^",
+    "^..................^",
+    "^..pp.....1....4...^",
+    "^..pp..gggg..cc....^",
+    "^..................^",
+    "^..gggg....pp..pp..^",
+    "^..........pp..pp..^",
+    "^p.................^",
+    "^........@........p^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  },
+  "budka": {
+   "podlaha": "wood",
+   "mapa": [
+    "^^^^^^^^^^^^^^^^^^^^",
+    "^WNNWWOWWNNNWWOWNNW^",
+    "^uu.xx......uu..ww.^",
+    "^..........1.......^",
+    "^..................^",
+    "^.....tt...........^",
+    "^.....hh.......x...^",
+    "^..............xx..^",
+    "^uu.............3..^",
+    "^x.................^",
+    "^........@.........^",
+    "^^^^^^^^^EE^^^^^^^^^"
+   ]
+  }
+ },
+ "kosti": [
+  "pekaren",
+  "skola",
+  "kniznica",
+  "posta",
+  "dielna",
+  "radnica",
+  "kaviaren",
+  "budka"
+ ],
+ "macka": [
+  "zahradnictvo",
+  "pekaren",
+  "dielna"
+ ],
+ "texty": {
+  "start": "Gabriel sa nevrátil už tretí deň. Dnes ho nájdem sám! Zápisník mám pri sebe.",
+  "ovladanie": "Šípky/WASD = chôdza · E = rozprávať · N alebo Tab = zápisník · Esc = zavrieť",
+  "mama_pred": [
+   "Gabriel sa ešte neozval. Opýtaj sa susedov, Marek. Každý v meste ho pozná.",
+   "Začni v Potravinách u Evy. Sú hneď pod nami, cez ulicu."
+  ],
+  "mama_po": [
+   "Drž sa, Marek. Gabriel je šikovný pes, určite ho nájdeš."
+  ],
+  "zaneprazdneny": "Teraz nemám čas, Marek. Skús najprv inde.",
+  "hotovo_opakuj": "Už som ti povedal(a), čo viem:",
+  "vedlajsia_dakujem": "Ešte raz vďaka za pomoc!",
+  "spravne": "Sedí!",
+  "nespravne": "To nesedí. Skús to znova.",
+  "clnaren_pred": "Člnáreň je zamknutá.",
+  "clnaren_stopy": [
+   "Dvere člnárne sú zamknuté. Pred nimi sú mokré šľapaje… a Gabrielova loptička!",
+   "Šľapaje vedú po brehu na východ, k starej záhradnej chatke. Babka Anna hovorila, že je od jari prázdna!"
+  ],
+  "gabriel_bez": [
+   "Za chatkou, pod starým pňom, leží Gabriel! Je unavený a hladný, ale živý.",
+   "Gabriel ťa spozná, zavrtí chvostom a pomaly k tebe priťapká."
+  ],
+  "gabriel_pistalka": [
+   "Za chatkou, pod starým pňom, leží Gabriel! Je unavený a hladný, ale živý.",
+   "Zapískaš Dedkovou píšťalkou. Gabriel zdvihne uši, vyskočí a pribehne k tebe!"
+  ],
+  "gabriel_kolac": "Dáš mu Tomášov koláč. Zhltne ho za dve sekundy.",
+  "zaver": [
+   "Doma už čakajú susedia. Mama, Eva, Dedko Jozef aj Babka Anna.",
+   "„Gabriel! Konečne!“ Celá ulica tlieska.",
+   "KONIEC. Ďakujeme, že si hral!"
+  ],
+  "kost_najdena": "Našiel si skrytú kosť!",
+  "kosti_vsetky": "Všetkých 8 kostí! Na konci hry ťa čaká špeciálna fotografia s Gabrielom.",
+  "fotka": "Špeciálna fotografia: Marek a Gabriel na hromade ôsmich kostí. Do rámčeka s ňou!",
+  "macka_uvod": "Marek, nevidel si moju mačku Micku? Schováva sa po meste – v záhradníctve, v pekárni a v dielni. Ak ju nájdeš, povedz mi.",
+  "macka_najdena": [
+   "Mňau! Micka ti utiekla pomedzi nohy. Vraj vybehla smerom k pekárni.",
+   "Mňau! Micka zase zmizla. Ktosi ju videl bežať k dielni.",
+   "Mňau! Micka sa ti obtrela o nohy. Konečne je pokojná. Povedz to Eve."
+  ],
+  "macka_odmena": "Ďakujem, Marek! Micka je doma. Jedno ti poradím: psy rady spia na tichých miestach, kam nikto nechodí.",
+  "macka_hotovo": "Micka už spinká v obchode. Vďaka!"
+ },
+ "zaver_postavy": [
+  [
+   "mama",
+   [
+    10,
+    16
+   ]
+  ],
+  [
+   "eva",
+   [
+    12,
+    16
+   ]
+  ],
+  [
+   "jozef",
+   [
+    14,
+    15
+   ]
+  ],
+  [
+   "anna",
+   [
+    9,
+    15
+   ]
+  ]
+ ],
+ "zaver_gabriel": [
+  12,
+  15
+ ],
+ "zaver_hrac": [
+  11,
+  15
+ ],
+ "gabriel": [
+  53,
+  44
+ ],
+ "lopticka": [
+  41,
+  42
+ ],
+ "stopy": [
+  [
+   39,
+   43
+  ],
+  [
+   40,
+   43
+  ],
+  [
+   41,
+   43
+  ],
+  [
+   42,
+   43
+  ],
+  [
+   43,
+   43
+  ],
+  [
+   44,
+   43
+  ],
+  [
+   45,
+   44
+  ],
+  [
+   46,
+   44
+  ],
+  [
+   47,
+   44
+  ],
+  [
+   48,
+   44
+  ],
+  [
+   49,
+   44
+  ],
+  [
+   50,
+   44
+  ],
+  [
+   51,
+   45
+  ]
+ ]
+}
